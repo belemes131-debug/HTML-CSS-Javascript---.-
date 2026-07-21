@@ -1,1 +1,34 @@
+.tall-section {
+  height: 1000px;
+  background-color: #e6e6e6;
+  margin-top: 20px;
+  padding: 15px;
+}
 
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #d3d3d3;
+    border: none;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .navbar-collapse .nav {
+    margin: 0;
+  }
+
+  .navbar-collapse .nav > li {
+    border-bottom: 1px solid #bbb;
+  }
+
+  .navbar-collapse .nav > li:last-child {
+    border-bottom: none;
+  }
+
+  .navbar-collapse .nav > li > a {
+    text-align: center;
+    color: #333;
+  }
+}
